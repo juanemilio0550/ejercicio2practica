@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Grupo_Bani_Practica2</string>
+
+    <string name="inf_digno"> Mi nombre es Digno Guerrero vivo en Bani,
+        soy estudiante de informática y unos de mi sueño es terminar mi carrera y
+        aprender de todo lo que se pueda acerca de la misma,
+        mi hobby es hacer ejercicios, escuchar música épicas e instrumentales,
+        jugar videos juegos, ver animes, series y películas, unos de mi personaje
+        favoritos animado es Flash por su súper poder de velocidad, soy una persona pasiva,
+        mística, me gusta la naturaleza, los animales y las planta,
+        soy muy respetuoso a toda vida sea animales, plantas y seres humanos,
+        me gustan los viajes para conocer cosas nuevas.</string>
+
+   <string name="inf_josue">Mi Nombre Darlis Josue Peguero Nivar, Naci en la Ciudad de Bani,
+       Soy hijo de Ramón Peguero y Virtudes Nivar, Soy el menor de Cuatro hermanos,
+       realice mis estudios en la Escuela Primaria Ana Reyes de Perez,
+       en el Liceo Francisco Gregorio Billini y el Politécnico Maximo Gomez.
+       Actualmente estoy terminando la Carrera de Lic. en Informática en la UASD y
+       realizando el monográfico. Mis Hobbies son escuchar Musica,
+       Jugar Videojuegos y leer Libros. </string>
+
+    <string name="inf_juan">JUAN CABRAL  Nació en Hato Mayor República Rominicana de padres,
+        florentino Cabral y seneyda Sánchez, el tercero de cuatro hermanos, Odali Cabral,
+        Magaly Cabral y Carlos Cabral, primeros estudios, escuela primaria Ramón Reynoso,
+        los Tumbaos(matanzas), estudios secundarios, liceo Ernestina Tejeda, villa fundación,
+        actualmente, estudiante de Informática, diplomado en maestría y oratoria de ceremonia y
+        diplomado en recursos y capital humano, en tiempo libre dedico el mayor
+        tiempo en deportes como softball y dominoes, mi mayor deseo es aprender
+        de los grandes. </string>
+
+</resources>
+

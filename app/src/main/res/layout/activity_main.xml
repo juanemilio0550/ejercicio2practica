@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="159dp"
+            android:scaleType="centerInside"
+
+            android:src="@drawable/mango4">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/textView"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grupo Banilejos"
+            android:textColor="#151802"
+            android:textSize="35dp"
+           android:layout_marginLeft="68dp"
+
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_digno"
+            android:onClick="infDigno"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/digno"
+            app:civ_border_color="#85DB2D"
+            app:civ_border_width="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/img_juan"
+            android:onClick="infJuan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/juan"
+            app:civ_border_color="#85DB2D"
+            app:civ_border_width="5dp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="25dp"
+            android:onClick="infJosue"
+            android:id="@+id/img_josue"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/josue"
+            app:civ_border_color="#85DB2D"
+            app:civ_border_width="5dp" />
+
+    </LinearLayout>
+    </ScrollView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/img_ajuste"
+        android:onClick="ajuste"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ajuste"
+        app:civ_border_color="#131212"
+        app:civ_border_width="5dp" />
+</LinearLayout>
